@@ -2,37 +2,16 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <link rel="stylesheet" href="./css/style.css" />
+        <link rel="stylesheet" href="../css/style.css" />
         <title>Blog Random</title>
-        <script type="text/javascript" src="./js/scriptForm.js"></script>
+        <script type="text/javascript" src="../js/scriptForm.js"></script>
     </head>
     <body>
         <header id="Header">
-            <h1>Societe menfou</h1>
-            <img src="./img/testlogo.png" alt="logo of the company" id="logo"/>
-            <ul id="ensMenuHor">
-                <li id="menuHor"><a href="accueil.html">Acceuil</a></li>
-                <li id="menuHor"><a href="product1.html#main100km">100-300 km</a></li>
-                <li id="menuHor"><a href="product1.html#main1000km">300-1 000 km</a></li>
-                <li id="menuHor"><a href="product1.html">1 000-5 000 km</a></li>
-                <li id="menuHor"><a href="product1.html">5 000-10 000 km</a></li>
-                <li id="menuHor"><a href="product1.html">plus de 10 000 km</a></li>
-                <li id="menuHor"><a href="formulaire.html">Contact</a></li>
-            </ul>
-            
+            <?php include 'header.php'; ?>  
         </header>
         <section id="Menu">
-            <h2>Menu</h2>
-            <ul>
-                <li><a href="accueil.html">Acceuil</a></li>
-                <li><a href="product1.html#main100km">100-300 km</a></li>
-                <li><a href="product1.html#main1000km">300-1 000 km</a></li>
-                <li><a href="product1.html">1 000-5 000 km</a></li>
-                <li><a href="product1.html">5 000-10 000 km</a></li>
-                <li><a href="product1.html">plus de 10 000 km</a></li>
-                <li><a href="formulaire.html">Contact</a></li>
-            </ul>
-            
+            <?php include 'menu.php'; ?>   
         </section>
         <!--TODO:FINIR-->
         <section id="MainF">
@@ -66,7 +45,7 @@
         </section>
         
         <footer id="Footer">
-            <p class="Copyright">&#169 2014-2023 Ratio Corporation</p>
+            <?php include 'footer.php'; ?>
         </footer>
     </body>
 </html>
